@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon-purple: #9b5cff;
+  --color-neon-pink: #ff2bd1;
+  --color-neon-cyan: #00f7ff;
+  --color-neon-yellow: #ffe359;
+  --color-backdrop: #0a0a0f;
+}
+
+html, body, #root {
+  @apply h-full;
+}
+
+body {
+  @apply bg-[color:var(--color-backdrop)] text-white antialiased;
+  background-image: radial-gradient(circle at 1px 1px, rgba(155,92,255,0.12) 1px, transparent 0);
+  background-size: 12px 12px;
+}
