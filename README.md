@@ -144,3 +144,8 @@ jobs:
 
 Notes
 - For User/Org Pages (root domain), you usually publish from the `main` branch or `docs/` folder. The Actions workflow above works for both; skip the `base` option in Vite.
+
+License
+
+    GPL 3.0 Only
+
